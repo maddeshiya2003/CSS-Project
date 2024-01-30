@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../asssets/pexels-binyamin-mellish-305535.jpg);
+    width: 98vw;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    border-radius: 4px;
+    margin: 39px 7px;
+    height: 70px;
+    width: 98vw;
+    background-color: white;
+    display: flex;
+}
+
+#logo{
+
+    margin-left: 40px;
+    height: 70px;
+    
+}
+
+header h2{
+    text-shadow: 0px 0px 20px black;
+    margin: 20px 0px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    margin: 25px 270px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#navshortcuts{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-left:20px ;
+}
+
+.up h1{
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 3px 12px black;
+}
+
+.up h4{
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+.down{
+    height: 487px;
+    border-radius: 6px;
+    width: 98vw;
+    background-size: cover;
+    margin: 39px 7px ;
+    border: 1px solid black;
+    background-image: url(../asssets/pexels-codioful-\(formerly-gradienta\)-7130490.jpg);
+}
+
+a:hover{
+    color: red;
+    text-shadow: 1px 1px 10px black;
+}
+#skill ul{
+    list-style-type: none;
+    display: flex;
+    gap: 7px;
+    margin-left: 18vw;
+}
+#skill ul li{
+    margin-top: 35px;
+    background-color: rgb(79, 79, 79);
+    color: aliceblue;
+    padding: 3px 27px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#skill ul li:hover{
+    background-color: rgba(231, 134, 255, 0.84);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+#intro{
+    display: flex;
+    gap: 15px;
+    margin: 40px 9vw ;
+}
+
+.introImage{
+    width: 400px;
+    height: 250px;
+}
+
+#intro div h2{
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 1px 1px 29px black;
+}
+
+#intro div p{
+    font-weight: 400px;
+    text-align: center;
+}
