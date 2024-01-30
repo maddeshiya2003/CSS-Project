@@ -1,0 +1,57 @@
+/*universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*ELEMENT*/
+h1{
+    text-align: center;
+}
+p{
+    color: red;
+}
+/*CLASS yaa MULTIPLE CLASS*/
+.heading{
+
+    background-color: yellowgreen;
+    size: 20px;
+
+}
+.pra{
+
+    text-align: end;
+
+}
+
+/*id selector*/
+#id1{
+
+border: 2px solid red;
+
+}
+
+/*class selector*/
+
+.class1 , .class4 , .class10{
+    text-align: center;
+    background-color: cyan;
+}
+
+/* DESENDENT SELECTOR*/
+
+main p{
+
+    background-color: black;
+
+}
+
+h1 > p{
+    text-align: end;
+}
+
+[ target="_blank" ]{
+
+    text-align: center;
+    color: lightcoral;
+
+}
