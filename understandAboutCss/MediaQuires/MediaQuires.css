@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content:"Welcome To Demo"
+}
+
+@media(400px<width<800px){
+
+    body{
+        background-color: cyan;
+    }
+
+}
+
+@media(min-width:700px){
+    /* agar view port 700px hai tabhi ye apply */
+
+   body{
+    background-color: lawngreen;
+   }
+   div::after{
+
+    content: "its working 700px";
+
+   }
+}
+
+@media(min-width:1000px){
+    /* agar view port 900px hai tabhi ye apply */
+
+   body{
+    background-color: khaki;
+   }
+   div::after{
+
+    content: "its working 1000px";
+
+   }
+}
