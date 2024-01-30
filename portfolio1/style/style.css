@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+header {
+    background-color: #1bc48b;
+    height: 70px;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+}
+
+.logo{
+
+    margin: 21px;
+    font-weight: 900;
+}
+
+.nav1 ul{
+    display: flex;
+    gap: 80px;
+    margin: 21px 400px;
+    font-weight: 900;
+}
+
+.div-search{
+    margin: 21px;
+}
+
+.div-search input{
+    border-radius: 4px;
+}
+
+.div-search button{
+    color:#1bc48b ;
+    background-color: black;
+    padding: 0px 18px;
+    border-radius: 5px;
+}
+
+main{
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+}
+span{
+    color: #1bc48b;
+    font-weight: bolder;
+}
+p{
+    font-weight: bolder;
+    font-size: larger;
+}
+img{
+    border: 4px solid #1bc48b;
+    border-radius: 50%;
+    height: 310px;
+    transition-delay:0.5s ;
+}
+
+img:hover{
+    border-radius: 8px;
+}
+
+.main-right button{
+    margin-left: 115px;
+    margin-top: 15px;
+    color:#1bc48b ;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer .copyright{
+    margin-left: 200px ;
+    font-weight: bold;
+    font-size:small;
+}
+
+.shortcut{
+    display: flex;
+    gap: 25px;
+    margin-left: 700px;
+}
+
+.shortcut a{
+    size-adjust:i;
+}
+
