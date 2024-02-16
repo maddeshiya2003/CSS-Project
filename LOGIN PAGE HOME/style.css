@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:  linear-gradient(rgba(0, 0, 0, 0.45)  ,rgba(0, 0, 0, 0.45) ), url(./pexels-dominykas-4411214.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 98vh ;
+}
+header{
+    font-family: Arial;
+    font-weight: bold;
+    color: rgba(172, 255, 47, 0.701);
+    margin-top: 8px;
+    display: flex;
+    gap: 200px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+    margin: 21px;
+   
+}
+
+#logo{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 15px 60px ;
+    text-shadow: 2px 2px 8px #009700;
+}
+
+.search{
+    margin: 20px 15px 1px 140px;
+    display: flex;
+}
+
+input{
+    font-weight: 600;
+    padding: 5px;
+    border-color: #04f604;
+    border-radius: 1px;
+    background-color: transparent;
+    color: antiquewhite;
+}
+ 
+.search button {
+    padding: 4px;
+    background-color:#04f604;
+    border-color: #04f604;
+    border-radius: 1px;
+}
+
+span{
+    color:rgba(172, 255, 47, 0.701)
+}
+.left h1,p{
+    color: white;
+}
+
+main{
+    margin: 90px 50px ;
+    display: flex;
+    gap: 310px ;
+}
+h1{
+    font-size: 42px;
+}
+p{
+    font-size: 19px;
+}
+
+.join_btn{
+    margin-top: 9px;
+    padding: 4px 22px;
+    border-radius: 5px;
+    /* border: 3px solid rgb(79, 132, 0) ; */
+}
+
+.right{
+    width: 270px;
+}
+.right div{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+.right div h3{
+    background-color: white;
+    padding-left: 46px;
+    padding: 2px 0px;
+    color:#009700;
+    border-radius: 5px;
+
+}
+
+.text {
+    color: wheat;
+}
+
+.form {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.login{
+    background-color: #fff;
+}
