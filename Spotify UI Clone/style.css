@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+    margin: 0.1rem;
+
+}
+
+body{
+    background-color: #000000;
+
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    overflow:scroll;
+    background-color: #000000;
+}
+
+.sidebar{
+    background-color: #000000;
+    width: 270px;
+    border-radius: 1em;
+}
+
+.mainContant{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.musicPlayer{
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 5.5rem;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    /* margin-top: 10px; */
+}
+
+.navOption{
+    line-height: 2.5rem;
+    background-color: #121212;
+    padding: 0.3rem 0.5rem;
+}
+.navOption a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #121212;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 3px;
+}
+
+.navOption a:hover{
+    opacity: 1;
+}
+
+.navOption i{
+    font-size: 1.25rem;
+    background-color: #121212;
+}
+
+.library{
+    background-color: #121212;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    
+}
+
+.option img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0px 10px;
+}
+.icon{
+    font-size: 1.25;
+}
+
+.icon i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icon i:hover{
+    opacity: 1;
+}
+
+.box{
+    background-color: #242424;
+    border-radius: 1rem;
+    margin: 0.5 rem 0rem 1rem 0rem;
+    padding:0.2rem 1rem ;
+}
+
+.p1{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.p2{
+    font-size: 0.75rem;
+    opacity: 0.9
+}
+
+.badge{
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    padding: 0.4re 1rem;
+    font-weight: 700;
+    color: #000000;
+    width: 120px;
+    height: 30px;
+}
+
+.badge2{
+    width: 135px;
+}
+
+.mainContant{
+    margin-left: 0.5rem;
+}
+
+.stickyNav{
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+    padding: 1rem 0rem;
+    align-items: center;
+    display: flex ;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.stickyNav img{
+    height: 1rem;
+}
+.stickyNavRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right:0.75rem ;
+}
+
+.badgeNav{
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    padding:0px 0.75rem ;
+    font-weight: 700;
+    color: #000000;
+    width: fit-content;
+    height: 30px;
+}
+.badgeNav2{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.cards{
+    margin: 0.5rem;
+    width: 100%;
+    height: fit-content;
+    background-color: #121212;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cardContainer{
+    display: flex;
+    width: 160px;
+    background-color: #282828;
+    border-radius: 0.5rem;
+    padding:15px;
+
+}
+
+.card img{
+    width: 150px;
+    border-radius: 0.5rem;
+} 
+
+.card p{
+    opacity: 0.7;
+    font-size: 0.65rem;
+}
+
+.main h2{
+    padding-left: 10px;
+}
+
+.musicPlayer{
+    display: flex;
+}
+
+.album{
+    width: 25%;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+    align-items: center;
+    }
+
+.control{
+    width:25% ;
+}
+
+.playerControl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.playerControlItem{
+    height: 1.1rem;
+    opacity: 0.7;
+}
+
+.playerControlItem:hover{
+    opacity: 1;
+}
+
+.playbackBar{
+    width: 100%;
+    margin-left:10px ;
+}
+
+.range{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.range::-webkit-slider-runnable-track{
+    background-color: #dddddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.range::-webkit-slider-thumb{
+    appearance: none;
+    height:4px;
+    width:4px;
+    /* background-color: #1bd760; */
+    border-radius: 100%;
+}
+
+.album{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.album img{
+    height: 3.5rem ;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+}
+
+.playedSong{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.playedIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playedIcon img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left:1rem ;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.controlIcon{
+    height: 1.8rem; 
+    width: 1.8rem;
+    opacity: 0.7;
+}
+
+.controlIcon:hover{
+    opacity: 1;
+}
+
+.control input{
+    width: 30%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.control input::-webkit-slider-runnable-track{
+    background-color: #dddddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.control input::-webkit-slider-thumb{
+    appearance: none;
+    height:6px;
+    width:6px;
+    /* background-color: green; */
+    border-radius: 100%;
+    margin-left: -1px;
+    margin-bottom: 10px;
+}
